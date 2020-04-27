@@ -118,7 +118,7 @@ function initInterface() {
 
  input.addEventListener('change',function(){
     if(this.checked) {
-		//slovakia.bringToFront()
+		slovakia.bringToFront()
 		//tilesOld.bringToFront()
     } else {
 		//slovakia2.bringToFront()
