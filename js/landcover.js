@@ -65,14 +65,14 @@ function initInterface() {
   attribution = L.control.attribution({ position: 'bottomright' }).addTo(map);
   scale = L.control.scale({ position: 'bottomright' }).addTo(map);
 
-  // Opacity Slider
+  /// Opacity Slider
   var slider = document.getElementById('slider');
   var sliderValue = document.getElementById('slider-value');
 
   slider.addEventListener('input', function(e) {
       //tilesNew.setOpacity(parseInt(e.target.value, 10) / 100)
       //tilesOld.setOpacity(parseInt(e.target.value, 10) / 100)
-	  slovakia.setOpacity(parseInt(e.target.value, 10) / 100)
+	  //slovakia.setOpacity(parseInt(e.target.value, 10) / 100)
 	  slovakia2.setOpacity(parseInt(e.target.value, 10) / 100)
       sliderValue.textContent = e.target.value + '%';
   });
