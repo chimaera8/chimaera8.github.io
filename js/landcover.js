@@ -39,7 +39,7 @@ function initMap() {
   //tilesNew = L.tileLayer('www2data/tv1o/{z}/{x}/{y}.png', {tms:true});
   //tilesOld = L.tileLayer('data/tv1o/{z}/{x}/{y}.png', {tms:true});
   //slovakia = L.tileLayer('https://www2.hu-berlin.de/geovis/eolab/landcover/data/slovakia/{z}/{x}/{-y}.png');
-  slovakia2 = L.tileLayer('data/slovakia_noBlanks/{z}/{x}/{-y}.png');
+  slovakia2 = L.tileLayer('data/slovakia_noBlanks/{z}/{x}/{y}.png', {tms:true});
  
   //map.addLayer(tilesOld)
   //map.addLayer(tilesNew)
