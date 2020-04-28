@@ -2,7 +2,7 @@
 var map;
 
 initMap();
-initInterface();
+//initInterface();
 
 function initMap() {
  L.mapbox.accessToken = 'pk.eyJ1Ijoia2ltYWVyYSIsImEiOiJFRmx4Q2k0In0.1xgFS81ORguzsqeKGavBiA';
