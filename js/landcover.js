@@ -38,15 +38,15 @@ function initMap() {
 
   //tilesNew = L.tileLayer('www2data/tv1o/{z}/{x}/{y}.png', {tms:true});
   //tilesOld = L.tileLayer('data/tv1o/{z}/{x}/{y}.png', {tms:true});
-  slovakia = L.tileLayer('https://www2.hu-berlin.de/geovis/eolab/landcover/data/slovakia/{z}/{x}/{-y}.png');
+  //slovakia = L.tileLayer('https://www2.hu-berlin.de/geovis/eolab/landcover/data/slovakia/{z}/{x}/{-y}.png');
   slovakia2 = L.tileLayer('data/slovakia_noBlanks/{z}/{x}/{-y}.png');
  
   //map.addLayer(tilesOld)
   //map.addLayer(tilesNew)
-  map.addLayer(slovakia)
+  //map.addLayer(slovakia)
   map.addLayer(slovakia2)
   //tilesNew.bringToFront();
-  slovakia.bringToFront();
+  slovakia2.bringToFront();
   
   //ar = new L.GeoJSON.AJAX("data/area.geojson", {onEachFeature: onEachCountry});
   //ar.addTo(map);
